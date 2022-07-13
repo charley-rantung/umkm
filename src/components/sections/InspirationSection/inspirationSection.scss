@@ -1,0 +1,63 @@
+@import "../../../styles/variables.scss";
+
+.inspiration-section {
+    display: flex;
+    justify-content: center;
+    background-color: var(--accent1-color);
+    .inspiration-section-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 1440px;
+        padding: 0 30px;
+        .left {
+            display: flex;
+            align-items: center;
+            flex: 1;
+            padding: 160px 0;
+            .inspiration-img {
+                height: 420px;
+                width: 620px;
+                object-fit: cover;
+                transition: 400ms;
+                &:hover {
+                    cursor: default;
+                    transform: scale(110%);
+                }
+            }
+        }
+        .right {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            flex: 1;
+            .inspiration-title {
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 72px;
+                color: var(--accent2-color);
+                width: 560px;
+            }
+            .inspiration-desc {
+                margin: 20px 0;
+                font-size: 24px;
+                font-weight: 300;
+                line-height: 36px;
+                color: var(--accent2-color);
+                width: 510px;
+            }
+
+            .inspiration-cta {
+                border: none;
+                height: 48px;
+                width: 128px;
+                background-color: var(--secondary-color);
+                color: var(--accent1-color);
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                cursor: pointer;
+            }
+        }
+    }
+}

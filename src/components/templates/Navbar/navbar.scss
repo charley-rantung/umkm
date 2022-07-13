@@ -1,0 +1,41 @@
+@import "../../../styles/variables.scss";
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: var(--accent1-color);
+    width: 100%;
+    .navbar-container {
+        display: flex;
+        flex: 1;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1440px;
+        height: 80px;
+        padding: 0 30px;
+        .brand-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+
+            .brand-icon {
+                height: 28px;
+                width: 28px;
+            }
+            p.brand-title {
+                font-size: 32px;
+                font-weight: 900;
+                color: var(--primary-color);
+            }
+        }
+        .navigation-wrapper {
+            display: flex;
+            gap: 48px;
+            a {
+                font-size: 16px;
+                color: var(--primary-color);
+                text-decoration: none;
+            }
+        }
+    }
+}

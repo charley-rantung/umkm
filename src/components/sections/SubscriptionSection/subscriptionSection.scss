@@ -1,0 +1,53 @@
+@import "../../../styles/variables.scss";
+
+.subscription-section {
+    display: flex;
+    justify-content: center;
+    background-color: var(--accent1-color);
+    .subscription-section-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 1440px;
+        .subscription-title {
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 54px;
+            text-align: center;
+            margin-top: 120px;
+        }
+        .subscription-desc {
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 30px;
+            width: 540px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .subscription-form {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0 120px 0;
+
+            .subscription-input {
+                height: 48px;
+                width: 400px;
+                border: none;
+                box-shadow: 0px 0px 0px 1px var(--accent2-color) inset;
+                padding: 0 20px;
+            }
+            .subscription-button {
+                height: 48px;
+                width: 120px;
+                background-color: var(--secondary-color);
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 24px;
+                color: var(--accent1-color);
+                border: none;
+                cursor: pointer;
+            }
+        }
+    }
+}

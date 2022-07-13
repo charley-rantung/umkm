@@ -1,0 +1,77 @@
+.contactus-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .body {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        background-color: #0d253c;
+        height: 800px;
+        .body-wrapper {
+            display: flex;
+            width: 100%;
+            max-width: 1440px;
+            .left {
+                flex: 1;
+                p:nth-child(1) {
+                    font-size: 48px;
+                    font-weight: 700;
+                    line-height: 72px;
+                    color: #fdfdfd;
+                    margin-top: 80px;
+                }
+                form {
+                    label {
+                        display: block;
+                        font-size: 12px;
+                        line-height: 24px;
+                        color: #fdfdfd;
+                        margin-top: 20px;
+                    }
+                    input {
+                        width: 60%;
+                        height: 32px;
+                        padding: 0 20px;
+                    }
+                    textarea {
+                        width: 60%;
+                        height: 240px;
+                        padding: 20px;
+                    }
+                    button {
+                        display: block;
+                        border: none;
+                        border-radius: 10px;
+                        height: 48px;
+                        width: 120px;
+                        margin-top: 20px;
+                        background-color: #f8a036;
+                        font-size: 16;
+                        font-weight: 700;
+                        color: #fdfdfd;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .right {
+                flex: 1;
+                margin-top: 160px;
+                p {
+                    font-size: 32px;
+                    font-weight: 700;
+                    line-height: 60px;
+                    color: #fdfdfd;
+                    margin-top: 20px;
+                }
+                a {
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 36px;
+                    color: #fdfdfd;
+                }
+            }
+        }
+    }
+}

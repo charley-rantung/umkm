@@ -1,0 +1,57 @@
+@import "../../../styles/variables.scss";
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    width: 100%;
+    .footer-container {
+        display: flex;
+        width: 100%;
+        max-width: 1440px;
+        padding: 0 20px;
+        .footer-wrapper {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 0;
+            .left {
+                flex: 1;
+                height: 100%;
+                p:nth-child(1) {
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 36px;
+                    color: var(--accent2-color);
+                }
+                p:nth-child(2) {
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 18px;
+                    color: var(--accent2-color);
+                    width: 480px;
+                }
+                p:nth-child(3) {
+                    margin-top: 24px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    color: var(--accent2-color);
+                    width: 480px;
+                }
+            }
+            .right {
+                flex: 1;
+                height: 100%;
+                a {
+                    margin-top: 8px;
+                    display: block;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 18px;
+                    color: var(--accent2-color);
+                }
+            }
+        }
+    }
+}
