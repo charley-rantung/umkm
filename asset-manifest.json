@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/umkm/static/css/main.e4d74540.css",
-    "main.js": "/umkm/static/js/main.f92734ab.js",
-    "static/media/heroImg.jpg": "/umkm/static/media/heroImg.c7b84f7c368a06305ebd.jpg",
-    "static/media/inspirationImg.jpg": "/umkm/static/media/inspirationImg.da50dc40819596ebb6e0.jpg",
-    "static/media/avatar.jpg": "/umkm/static/media/avatar.6aa3be20904cdd895c38.jpg",
-    "static/media/icons8-skype.svg": "/umkm/static/media/icons8-skype.a7e048ddad560a34c3e9cb5e0c477757.svg",
-    "static/media/icons8-whatsapp.svg": "/umkm/static/media/icons8-whatsapp.21704e2b9977617a3ad6efc8f13fee4a.svg",
-    "static/media/icons8-instagram.svg": "/umkm/static/media/icons8-instagram.a913d3fa0d10ef4addfe8bf77f301edf.svg",
-    "static/media/icons8-mail.svg": "/umkm/static/media/icons8-mail.2484049e3c748dda781dfac7955b80b1.svg",
-    "static/media/icons8-facebook.svg": "/umkm/static/media/icons8-facebook.ab63d5605fcffc634e7716560aae1d99.svg",
-    "static/media/UM KM.svg": "/umkm/static/media/UM KM.4ca4b3705b724722023c764d89671a7b.svg",
-    "index.html": "/umkm/index.html",
-    "static/media/fb.svg": "/umkm/static/media/fb.0992ca09968d9df5d4ceee009d8c645e.svg",
-    "static/media/truck.svg": "/umkm/static/media/truck.e056813cc5268228ad7f8ee005278cd9.svg",
-    "static/media/thumbs-up.svg": "/umkm/static/media/thumbs-up.73d06640c06b29002cf1c1cbbe353692.svg",
-    "static/media/dollar-sign.svg": "/umkm/static/media/dollar-sign.3046959876db1003da98b99c0f34e3f3.svg",
-    "main.e4d74540.css.map": "/umkm/static/css/main.e4d74540.css.map",
-    "main.f92734ab.js.map": "/umkm/static/js/main.f92734ab.js.map"
+    "main.css": "./static/css/main.e4d74540.css",
+    "main.js": "./static/js/main.923156f5.js",
+    "static/media/heroImg.jpg": "./static/media/heroImg.c7b84f7c368a06305ebd.jpg",
+    "static/media/inspirationImg.jpg": "./static/media/inspirationImg.da50dc40819596ebb6e0.jpg",
+    "static/media/avatar.jpg": "./static/media/avatar.6aa3be20904cdd895c38.jpg",
+    "static/media/icons8-skype.svg": "./static/media/icons8-skype.a7e048ddad560a34c3e9cb5e0c477757.svg",
+    "static/media/icons8-whatsapp.svg": "./static/media/icons8-whatsapp.21704e2b9977617a3ad6efc8f13fee4a.svg",
+    "static/media/icons8-instagram.svg": "./static/media/icons8-instagram.a913d3fa0d10ef4addfe8bf77f301edf.svg",
+    "static/media/icons8-mail.svg": "./static/media/icons8-mail.2484049e3c748dda781dfac7955b80b1.svg",
+    "static/media/icons8-facebook.svg": "./static/media/icons8-facebook.ab63d5605fcffc634e7716560aae1d99.svg",
+    "static/media/UM KM.svg": "./static/media/UM KM.4ca4b3705b724722023c764d89671a7b.svg",
+    "static/media/fb.svg": "./static/media/fb.0992ca09968d9df5d4ceee009d8c645e.svg",
+    "index.html": "./index.html",
+    "static/media/truck.svg": "./static/media/truck.e056813cc5268228ad7f8ee005278cd9.svg",
+    "static/media/thumbs-up.svg": "./static/media/thumbs-up.73d06640c06b29002cf1c1cbbe353692.svg",
+    "static/media/dollar-sign.svg": "./static/media/dollar-sign.3046959876db1003da98b99c0f34e3f3.svg",
+    "main.e4d74540.css.map": "./static/css/main.e4d74540.css.map",
+    "main.923156f5.js.map": "./static/js/main.923156f5.js.map"
   },
   "entrypoints": [
     "static/css/main.e4d74540.css",
-    "static/js/main.f92734ab.js"
+    "static/js/main.923156f5.js"
   ]
 }
